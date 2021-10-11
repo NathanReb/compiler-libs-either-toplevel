@@ -1,0 +1,6 @@
+directory= "+compiler-libs"
+requires = "compiler-libs.optcomp compiler-libs.bytecomp dynlink"
+version = "[distributed with Ocaml]"
+description = "Toplevel interactions"
+archive(byte) = "ocamltoplevel.cma"
+archive(native) = "ocamltoplevel.cmxa"
