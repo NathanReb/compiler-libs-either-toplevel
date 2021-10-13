@@ -1,6 +1,5 @@
 directory= "+compiler-libs"
-requires(byte) = "compiler-libs.bytecomp"
-requires(native) = "compiler-libs.optcomp dynlink"
+requires = "compiler-libs.optcomp compiler-libs.bytecomp dynlink"
 version = "[distributed with Ocaml]"
 description = "Toplevel interactions"
 archive(byte) = "ocamltoplevel.cma"
